@@ -31,6 +31,6 @@ public class SwitchTerrain : MonoBehaviour {
   }
 
   public void onExitBtn() {
-    SceneManager.LoadScene("Title");
+    FadeManager.Instance.LoadScene("Title",1f);
   }
 }

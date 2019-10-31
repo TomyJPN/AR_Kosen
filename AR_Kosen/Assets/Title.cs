@@ -28,6 +28,6 @@ public class Title : MonoBehaviour {
     CreditCanvas.SetActive(false);
   }
   public void onStartBtn() {
-    SceneManager.LoadScene("MainScene");
+    FadeManager.Instance.LoadScene("MainScene", 1f);
   }
 }
